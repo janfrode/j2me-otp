@@ -1,4 +1,4 @@
-Here's a port of http://www.cs.umd.edu/users/harry/jotp/[jotp] to 
+Here's a port of http://www.cs.umd.edu/users/harry/jotp/ to 
 Java 2 Platform Micro Edition (J2ME), so that it can be used on 
 mobile phones that supports Java. I made this so that I can securely 
 connect to our ssh-server from insecure internet cafees, where 
@@ -12,14 +12,14 @@ to securely log into my servers from unsecure terminals.
 Building and testing in emulator
 --------------------------------
 
-You will need the 
-http://java.sun.com/products/sjwtoolkit/overview.html[Sun Java Wireless Toolkit for CLDC]
+You will need the Sun Java Wireless Toolkit for CLDC, 
+http://java.sun.com/products/sjwtoolkit/overview.html
 to build it from source. The Sun Java Wireless Toolkit also includes an
 emulator, so that it's easy to test the application without uploading it
 to the phone. Very handy for development. To test it in the emulator, 
 download the .jad and .jar and execute: 'emulator -Xdescriptor:jotp.jad'. 
 
-Emulator http://tanso.net/j2me-otp/emulator.png[screenshot].
+Emulator screenshot http://tanso.net/j2me-otp/emulator.png
 
 
 Comments?
