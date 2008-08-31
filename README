@@ -1,0 +1,29 @@
+Here's a port of http://www.cs.umd.edu/users/harry/jotp/[jotp] to 
+Java 2 Platform Micro Edition (J2ME), so that it can be used on 
+mobile phones that supports Java. I made this so that I can securely 
+connect to our ssh-server from insecure internet cafees, where 
+people might be trying to sniff my passsword. The midlet supports 
+md5-hashing, since that's what I'm using. Adding md4 should be 
+trivial, if anybody needs it.
+
+I use this with an openssh server configured with '--with-skey',
+to securely log into my servers from unsecure terminals.
+
+Building and testing in emulator
+--------------------------------
+
+You will need the 
+http://java.sun.com/products/sjwtoolkit/overview.html[Sun Java Wireless Toolkit for CLDC]
+to build it from source. The Sun Java Wireless Toolkit also includes an
+emulator, so that it's easy to test the application without uploading it
+to the phone. Very handy for development. To test it in the emulator, 
+download the .jad and .jar and execute: 'emulator -Xdescriptor:jotp.jad'. 
+
+Emulator http://tanso.net/j2me-otp/emulator.png[screenshot].
+
+
+Comments?
+----------
+
+Please email any comments to Jan-Frode Myklebust, janfrode@tanso.net.
+
