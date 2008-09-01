@@ -1,0 +1,7 @@
+MIDlet-1: jotp, jotp.png, jotpMIDlet
+MIDlet-Name: jotp
+MIDlet-Version: 1.0
+MIDlet-Vendor: tanso.net
+MicroEdition-Profile: 1.0
+MicroEdition-Configuration: 1.0
+Manifest-Version: 1.0

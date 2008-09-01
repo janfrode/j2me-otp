@@ -1,6 +1,6 @@
 MIDlet-1: jotp, jotp.png, jotpMIDlet
-MIDlet-Jar-Size: 26220
 MIDlet-Jar-URL: jotp.jar
+MIDlet-Jar-Size: 27849
 MIDlet-Name: jotp
-MIDlet-Vendor: Sun Microsystems
+MIDlet-Vendor: tanso.net
 MIDlet-Version: 1.0
