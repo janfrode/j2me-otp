@@ -20,13 +20,13 @@ public class jotpMIDlet
   public jotpMIDlet() {
 
 	mMainForm = new Form("OneTimePass");
-	PassField = new TextField("Password", null, 20, 0x10000);
-	SeqField = new TextField("Sequence", null, 6, 2);
+	PassField = new TextField("Password", null, 20, TextField.ANY | TextField.PASSWORD);
+	SeqField = new TextField("Sequence", null, 6, TextField.NUMERIC);
 	ChallengeField = new TextField("Challenge", null, 10, 0);
 	mMainForm.append(PassField);
 	mMainForm.append(SeqField);
 	mMainForm.append(ChallengeField);
-	mMainForm.addCommand(new Command("OK", Command.OK, 0));
+	mMainForm.addCommand(new Command("Calculate", Command.OK, 0));
 	mMainForm.addCommand(new Command("Exit", Command.EXIT, 0));
 	mMainForm.setCommandListener(this);
   }
