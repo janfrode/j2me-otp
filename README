@@ -14,10 +14,16 @@ Building and testing in emulator
 
 You will need the Sun Java Wireless Toolkit for CLDC, 
 http://java.sun.com/products/sjwtoolkit/overview.html
-to build it from source. The Sun Java Wireless Toolkit also includes an
-emulator, so that it's easy to test the application without uploading it
-to the phone. Very handy for development. To test it in the emulator, 
-download the .jad and .jar and execute: 'emulator -Xdescriptor:jotp.jad'. 
+to build it from source. I install this in /usr/local/bin/WTK2.5.2, 
+and set my PATH to include it:
+
+	export PATH=/usr/local/WTK2.5.2/bin:$PATH
+
+The Sun Java Wireless Toolkit also includes an emulator, so that
+it's easy to test the application without uploading it to the phone.
+Very handy for development. To test it in the emulator, download the
+.jad and .jar and execute: 'emulator -Xdescriptor:jotp.jad', or 
+simply "make demo".
 
 Emulator screenshot http://tanso.net/j2me-otp/emulator.png
 
