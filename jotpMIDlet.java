@@ -2,7 +2,7 @@
  * MIDlet interface to Harry Mantakos <harry@meretrix.com> OTP (s/key)
  * calculator. 
  *
- * Written by Jan-Frode Myklebust <janfrode@parallab.uib.no>.
+ * Written by Jan-Frode Myklebust <janfrode@tanso.net>.
  */
 
 import javax.microedition.lcdui.*;
