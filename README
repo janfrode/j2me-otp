@@ -11,7 +11,7 @@ to securely log into my servers from unsecure terminals.
 
 Building and testing in emulator
 --------------------------------
-
+This is the calculator
 You will need the Sun Java Wireless Toolkit for CLDC, 
 http://java.sun.com/products/sjwtoolkit/overview.html
 to build it from source. I install this in /usr/local/bin/WTK2.5.2, 
